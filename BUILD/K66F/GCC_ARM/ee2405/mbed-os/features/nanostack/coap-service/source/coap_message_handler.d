@@ -1,0 +1,21 @@
+BUILD/K66F/GCC_ARM/ee2405/mbed-os/features/nanostack/coap-service/source/coap_message_handler.o: \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/coap-service/source/coap_message_handler.c \
+ BUILD/K66F/GCC_ARM/mbed_config.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/coap-service/source/include/coap_service_api_internal.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/coap-service/source/include/coap_message_handler.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-coap/mbed-coap/sn_coap_header.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/coap-service/source/include/coap_message_handler.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-coap/mbed-coap/sn_coap_protocol.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-coap/mbed-coap/sn_coap_header.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-coap/source/include/sn_coap_protocol_internal.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-coap/source/include/sn_coap_header_internal.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-coap/mbed-coap/sn_config.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack/nanostack/socket_api.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_address.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-client-randlib/mbed-client-randlib/randLIB.h
