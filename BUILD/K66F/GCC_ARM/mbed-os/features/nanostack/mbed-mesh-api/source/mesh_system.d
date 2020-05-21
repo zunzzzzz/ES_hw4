@@ -1,0 +1,25 @@
+BUILD/K66F/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/mesh_system.o: \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/mbed-mesh-api/source/mesh_system.c \
+ BUILD/K66F/GCC_ARM/mbed_config.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_scheduler.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-client-randlib/mbed-client-randlib/randLIB.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/platform/arm_hal_timer.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/platform/eventloop_config.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/ns_hal_init.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/mbed-mesh-api/source/include/mesh_system.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_scheduler.h \
+ /home/zunzzz/ee2405/mbed-os/platform/mbed_assert.h \
+ /home/zunzzz/ee2405/mbed-os/platform/mbed_toolchain.h \
+ /home/zunzzz/ee2405/mbed-os/platform/mbed_preprocessor.h \
+ /home/zunzzz/ee2405/mbed-os/platform/mbed_error.h \
+ /home/zunzzz/ee2405/mbed-os/platform/mbed_retarget.h \
+ /home/zunzzz/ee2405/mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_file_system.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
+ /home/zunzzz/ee2405/mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h

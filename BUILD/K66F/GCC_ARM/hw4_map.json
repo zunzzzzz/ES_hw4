@@ -2,10 +2,10 @@
     {
         "module": "[fill]",
         "size": {
-            ".text": 207,
-            ".data": 10,
-            ".bss": 33,
-            ".text-delta": 2,
+            ".text": 294,
+            ".data": 19,
+            ".bss": 48,
+            ".text-delta": -4,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -13,7 +13,7 @@
     {
         "module": "[lib]/c.a",
         "size": {
-            ".text": 32843,
+            ".text": 48246,
             ".data": 2472,
             ".bss": 89,
             ".text-delta": 0,
@@ -24,7 +24,7 @@
     {
         "module": "[lib]/gcc.a",
         "size": {
-            ".text": 3272,
+            ".text": 3336,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -66,11 +66,11 @@
         }
     },
     {
-        "module": "ee2405/mbed-os",
+        "module": "[lib]/stdc++.a",
         "size": {
-            ".text": 37914,
-            ".data": 473,
-            ".bss": 6682,
+            ".text": 1,
+            ".data": 0,
+            ".bss": 0,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -79,10 +79,98 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 2302,
+            ".text": 5747,
+            ".data": 12,
+            ".bss": 1312,
+            ".text-delta": -124,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/components",
+        "size": {
+            ".text": 14065,
+            ".data": 0,
+            ".bss": 1364,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/drivers",
+        "size": {
+            ".text": 4530,
+            ".data": 0,
+            ".bss": 44,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/events",
+        "size": {
+            ".text": 1842,
+            ".data": 0,
+            ".bss": 3108,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/features",
+        "size": {
+            ".text": 11910,
+            ".data": 99,
+            ".bss": 141,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/hal",
+        "size": {
+            ".text": 2035,
             ".data": 8,
-            ".bss": 868,
-            ".text-delta": -57,
+            ".bss": 131,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/platform",
+        "size": {
+            ".text": 8436,
+            ".data": 261,
+            ".bss": 349,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/rtos",
+        "size": {
+            ".text": 12826,
+            ".data": 168,
+            ".bss": 5980,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/targets",
+        "size": {
+            ".text": 15219,
+            ".data": 36,
+            ".bss": 950,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -90,7 +178,7 @@
     {
         "module": "mbed_rpc/Arguments.o",
         "size": {
-            ".text": 229,
+            ".text": 315,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -121,11 +209,22 @@
         }
     },
     {
+        "module": "wifi_mqtt/MQTT",
+        "size": {
+            ".text": 1824,
+            ".data": 0,
+            ".bss": 4,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
         "summary": {
-            "static_ram": 10688,
+            "static_ram": 16648,
             "static_ram_delta": 0,
-            "total_flash": 81694,
-            "total_flash_delta": -55
+            "total_flash": 135665,
+            "total_flash_delta": -128
         }
     }
 ]

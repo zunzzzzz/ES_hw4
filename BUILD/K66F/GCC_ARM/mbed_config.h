@@ -22,6 +22,9 @@
 #define __MBED_CONFIG_DATA__
 
 // Configuration parameters
+#define MBED_CONF_APP_WIFI_PASSWORD                                           "12345678"                                                                                       // set by application
+#define MBED_CONF_APP_WIFI_SHIELD                                             WIFI_ESP8266                                                                                     // set by application
+#define MBED_CONF_APP_WIFI_SSID                                               "P880"                                                                                           // set by application
 #define MBED_CONF_ATMEL_RF_ASSUME_SPACED_SPI                                  0                                                                                                // set by library:atmel-rf
 #define MBED_CONF_ATMEL_RF_FULL_SPI_SPEED                                     7500000                                                                                          // set by library:atmel-rf
 #define MBED_CONF_ATMEL_RF_FULL_SPI_SPEED_BYTE_SPACING                        250                                                                                              // set by library:atmel-rf
@@ -39,7 +42,7 @@
 #define MBED_CONF_ESP8266_POWER_OFF_TIME_MS                                   3                                                                                                // set by library:esp8266
 #define MBED_CONF_ESP8266_POWER_ON_POLARITY                                   0                                                                                                // set by library:esp8266
 #define MBED_CONF_ESP8266_POWER_ON_TIME_MS                                    3                                                                                                // set by library:esp8266
-#define MBED_CONF_ESP8266_PROVIDE_DEFAULT                                     0                                                                                                // set by library:esp8266
+#define MBED_CONF_ESP8266_PROVIDE_DEFAULT                                     1                                                                                                // set by application[*]
 #define MBED_CONF_ESP8266_SERIAL_BAUDRATE                                     115200                                                                                           // set by library:esp8266
 #define MBED_CONF_ESP8266_SOCKET_BUFSIZE                                      8192                                                                                             // set by library:esp8266
 #define MBED_CONF_EVENTS_PRESENT                                              1                                                                                                // set by library:events
@@ -176,7 +179,7 @@
 #define MBED_CONF_PLATFORM_POLL_USE_LOWPOWER_TIMER                            0                                                                                                // set by library:platform
 #define MBED_CONF_PLATFORM_STDIO_BAUD_RATE                                    9600                                                                                             // set by library:platform
 #define MBED_CONF_PLATFORM_STDIO_BUFFERED_SERIAL                              0                                                                                                // set by library:platform
-#define MBED_CONF_PLATFORM_STDIO_CONVERT_NEWLINES                             0                                                                                                // set by library:platform
+#define MBED_CONF_PLATFORM_STDIO_CONVERT_NEWLINES                             1                                                                                                // set by application[*]
 #define MBED_CONF_PLATFORM_STDIO_CONVERT_TTY_NEWLINES                         0                                                                                                // set by library:platform
 #define MBED_CONF_PLATFORM_STDIO_FLUSH_AT_EXIT                                1                                                                                                // set by library:platform
 #define MBED_CONF_PLATFORM_USE_MPU                                            1                                                                                                // set by library:platform

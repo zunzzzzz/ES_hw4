@@ -242,4 +242,15 @@ BUILD/K66F/GCC_ARM/main.o: main.cpp BUILD/K66F/GCC_ARM/mbed_config.h \
  /home/zunzzz/ee2405/mbed-os/features/mbedtls/mbed-crypto/inc/mbedtls/platform.h \
  mbed_rpc/RPCVariable.h mbed_rpc/RPCFunction.h mbed_rpc/RpcClasses.h \
  /home/zunzzz/ee2405/mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_K66F/drivers/fsl_port.h \
+ wifi_mqtt/MQTTNetwork.h \
+ /home/zunzzz/ee2405/mbed-os/features/netsocket/NetworkInterface.h \
+ wifi_mqtt/MQTT/MQTTmbed.h wifi_mqtt/MQTT/MQTTClient.h \
+ wifi_mqtt/MQTT/FP/FP.h wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTConnect.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTPublish.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTSubscribe.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTUnsubscribe.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTFormat.h \
+ wifi_mqtt/MQTT/MQTTPacket/StackTrace.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h wifi_mqtt/MQTT/MQTTLogging.h \
  /home/zunzzz/ee2405/mbed-os/targets/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_K66F/drivers/fsl_gpio.h
