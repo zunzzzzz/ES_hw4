@@ -6,25 +6,24 @@ import matplotlib.pyplot as plt
 # XBee setting
 serdev = '/dev/ttyUSB0'
 s = serial.Serial(serdev, 9600)
-
 s.write("+++".encode())
 char = s.read(2)
 print("Enter AT mode.")
 print(char.decode())
 
-s.write("ATMY 0x145\r\n".encode())
+s.write("ATMY 0x122\r\n".encode())
 char = s.read(3)
-print("Set MY 0x145.")
+print("Set MY 0x122.")
 print(char.decode())
 
-s.write("ATDL 0x245\r\n".encode())
+s.write("ATDL 0x312\r\n".encode())
 char = s.read(3)
-print("Set DL 0x245.")
+print("Set DL 0x312.")
 print(char.decode())
 
-s.write("ATID 0x1\r\n".encode())
+s.write("ATID 0x9\r\n".encode())
 char = s.read(3)
-print("Set PAN ID 0x1.")
+print("Set PAN ID 0x9.")
 print(char.decode())
 
 s.write("ATWR\r\n".encode())

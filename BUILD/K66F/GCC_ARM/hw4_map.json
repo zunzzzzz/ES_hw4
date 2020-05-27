@@ -2,10 +2,10 @@
     {
         "module": "[fill]",
         "size": {
-            ".text": 294,
+            ".text": 300,
             ".data": 19,
             ".bss": 48,
-            ".text-delta": -4,
+            ".text-delta": -5,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -79,10 +79,10 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 5747,
+            ".text": 5757,
             ".data": 12,
             ".bss": 1312,
-            ".text-delta": -124,
+            ".text-delta": -3,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -223,8 +223,8 @@
         "summary": {
             "static_ram": 16648,
             "static_ram_delta": 0,
-            "total_flash": 135665,
-            "total_flash_delta": -128
+            "total_flash": 135681,
+            "total_flash_delta": -8
         }
     }
 ]

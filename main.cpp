@@ -103,14 +103,16 @@ int main(){
         xbee_reply[0] = '\0';
         xbee_reply[1] = '\0';
     }
-    xbee.printf("ATMY 0x245\r\n");
-    reply_messange(xbee_reply, "setting MY : 0x245");
+    xbee_reply[0] = '\0';
+    xbee_reply[1] = '\0';
+    xbee.printf("ATMY 0x312\r\n");
+    reply_messange(xbee_reply, "setting MY : 0x312");
 
-    xbee.printf("ATDL 0x145\r\n");
-    reply_messange(xbee_reply, "setting DL : 0x145");
+    xbee.printf("ATDL 0x122\r\n");
+    reply_messange(xbee_reply, "setting DL : 0x122");
 
-    xbee.printf("ATID 0x1\r\n");
-    reply_messange(xbee_reply, "setting PAN ID : 0x1");
+    xbee.printf("ATID 0x9\r\n");
+    reply_messange(xbee_reply, "setting PAN ID : 0x9");
 
     xbee.printf("ATWR\r\n");
     reply_messange(xbee_reply, "write config");
@@ -148,7 +150,7 @@ int main(){
     MQTT::Client<MQTTNetwork, Countdown> client(mqttNetwork);
 
     //TODO: revise host to your ip
-    const char* host = "192.168.1.116";
+    const char* host = "172.20.10.2";
     printf("Connecting to TCP network...\r\n");
     int rc = mqttNetwork.connect(host, 1883);
     if (rc != 0) {
@@ -169,8 +171,6 @@ int main(){
     }
 
     mqtt_thread.start(callback(&mqtt_queue, &EventQueue::dispatch_forever));
-    // btn2.rise(mqtt_queue.event(&publish_message, &client));
-    // btn3.rise(&close_mqtt);
     xbee.attach(xbee_rx_interrupt, Serial::RxIrq);
 
     int num = 0;
@@ -228,7 +228,7 @@ void messageArrived(MQTT::MessageData& md) {
 void publish_message(MQTT::Client<MQTTNetwork, Countdown>* client) {
     message_num++;
     MQTT::Message message;
-    char buff[100];
+    char buff[100] = {0};
     sprintf(buff, "%1.4f %1.4f %1.4f %f", t[0], t[1], t[2], sample_interval);
     message.qos = MQTT::QOS0;
     message.retained = false;
@@ -237,8 +237,8 @@ void publish_message(MQTT::Client<MQTTNetwork, Countdown>* client) {
     message.payloadlen = strlen(buff) + 1;
     int rc = client->publish(topic, message);
 
-    printf("rc:  %d\r\n", rc);
-    printf("Puslish message: %s\r\n", buff);
+    pc.printf("rc:  %d\r\n", rc);
+    pc.printf("Puslish message: %s\r\n", buff);
 }
 
 void xbee_rx_interrupt(void)

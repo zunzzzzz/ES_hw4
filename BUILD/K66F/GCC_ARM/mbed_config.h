@@ -24,7 +24,7 @@
 // Configuration parameters
 #define MBED_CONF_APP_WIFI_PASSWORD                                           "12345678"                                                                                       // set by application
 #define MBED_CONF_APP_WIFI_SHIELD                                             WIFI_ESP8266                                                                                     // set by application
-#define MBED_CONF_APP_WIFI_SSID                                               "P880"                                                                                           // set by application
+#define MBED_CONF_APP_WIFI_SSID                                               "Dexx"                                                                                           // set by application
 #define MBED_CONF_ATMEL_RF_ASSUME_SPACED_SPI                                  0                                                                                                // set by library:atmel-rf
 #define MBED_CONF_ATMEL_RF_FULL_SPI_SPEED                                     7500000                                                                                          // set by library:atmel-rf
 #define MBED_CONF_ATMEL_RF_FULL_SPI_SPEED_BYTE_SPACING                        250                                                                                              // set by library:atmel-rf

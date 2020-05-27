@@ -10,7 +10,7 @@ mqttc = paho.Client()
 
 # Settings for connection
 # TODO: revise host to your ip
-host = "192.168.1.116"
+host = "172.20.10.2"
 topic = "Mbed"
 list_x = []
 list_y = []
@@ -36,7 +36,7 @@ def on_message(mosq, obj, msg):
             y = float(split_data[1])
             z = float(split_data[2])
             time_interval = float((split_data[3].split("\\"))[0])
-            time_interval = 0.5
+            # time_interval = 0.5
             # print(x)
             # print(y)
             # print(z)

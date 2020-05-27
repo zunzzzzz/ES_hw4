@@ -6,7 +6,7 @@
        },
        "wifi-ssid": {
              "help": "WiFi SSID",
-             "value": "\"P880\""
+             "value": "\"Dexx\""
        },
        "wifi-password": {
              "help": "WiFi Password",
